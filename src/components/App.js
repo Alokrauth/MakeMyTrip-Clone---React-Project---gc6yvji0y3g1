@@ -12,36 +12,6 @@ import Checkout from "./CheckOut/Checkout";
 
 const App = () => {
   return (
-    // <BrowserRouter>
-    //   <div id='main'>
-    //     <Routes>
-    //       <Route
-    //         path='/Master'
-    //         element={
-    //           <Master modal2Open={modal2Open} setModal2Open={setModal2Open} />
-    //         }
-    //       />
-    //       <Route path='/' element={<Login />} />
-    //       <Route
-    //         path='/checkout'
-    //         element={
-    //           <Modals modal2Open={modal2Open} setModal2Open={setModal2Open} />
-    //         }
-    //       />
-    //       <Route
-    //         path='/hotels'
-    //         element={
-    //           <MasterHotel
-    //             modal2Open={modal2Open}
-    //             setModal2Open={setModal2Open}
-    //           />
-    //         }
-    //       />
-    //       <Route path='/trains' element={<MasterTrain />} />
-    //     </Routes>
-    //   </div>
-    // </BrowserRouter>
-    // <MasterHotel />
     <Router>
       <Header />
       <Routes>
